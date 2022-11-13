@@ -1,0 +1,20 @@
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import HomePage from "../container/Home";
+import ShopPage from "../container/Shop";
+import CartPage from "../container/Cart";
+import ProfilePage from "../container/Profile";
+import WishListPage from "../container/WistList";
+
+
+export default function AllRoute() {
+    return (
+        <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/shop" component={ShopPage} />
+            <Route exact path="/cart" component={CartPage} />
+            <Route exact path="/profile" component={ProfilePage} />
+            <Route exact path="/wish-list" component={WishListPage} />
+        </Switch>
+    )
+}
