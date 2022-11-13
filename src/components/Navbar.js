@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Navbar,Nav,Container,Modal,Button,Row,Col,Form} from 'react-bootstrap';
 import '../style/index.css';
 import {NavLink,Redirect,useHistory} from 'react-router-dom';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router'
 
 
 class NavbarComponent extends Component {
